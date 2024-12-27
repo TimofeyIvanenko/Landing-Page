@@ -1,0 +1,177 @@
+* {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+.hero-section {
+    background-color: #1f2937;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 16px;
+}
+
+.hero-link-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    gap: 16px;
+}
+
+.hero-logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+button {
+    border: none;
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 8px 32px;
+    border-radius: 8px;
+}
+
+.nav-bar {
+    padding: 24px 240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-main {
+    padding: 24px 240px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 64px;
+}
+
+.hero-main .text-section {
+    flex: 1;
+}
+
+img {
+    width: 400px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.information-section .image {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.info-secondary-text {
+    font-size: 18px;
+    color: black;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main-content .first,
+.main-content .second,
+.main-content .third,
+.main-content .fourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 0 200px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-family: "light italic";
+    color: #1f2937;
+}
+
+.quote-author {
+    align-self: end;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.sign-section {
+    align-self: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 0px 120px;
+    height: 20vh;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 64px;
+}
+
+.sign-button {
+    border: 2px solid #f9faf8;
+}
+
+.sign-header {
+    font-size: 24px;
+}
+
+button {
+    white-space: nowrap;
+}
+
+.sign-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
